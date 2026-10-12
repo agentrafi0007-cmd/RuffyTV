@@ -1,0 +1,29 @@
+{
+  "description": "Openly-licensed video providers: public-domain films (Internet Archive), federated Creative Commons video (PeerTube), freely-licensed media (Wikimedia Commons). No accounts, no keys, no copyrighted sources.",
+  "manifestVersion": 1,
+  "name": "RuffyTV Legal Providers",
+  "providers": [
+    {
+      "author": "ruffytv",
+      "description": "Public-domain and openly-licensed video from the Internet Archive",
+      "name": "Internet Archive",
+      "url": "internet-archive.cjs",
+      "version": "1.0.0"
+    },
+    {
+      "author": "ruffytv",
+      "description": "Federated Creative Commons video via Sepia Search",
+      "name": "PeerTube",
+      "url": "peertube.cjs",
+      "version": "1.0.0"
+    },
+    {
+      "author": "ruffytv",
+      "description": "Freely-licensed videos from Wikimedia Commons",
+      "name": "Wikimedia Commons",
+      "url": "wikimedia-commons.cjs",
+      "version": "1.0.0"
+    }
+  ],
+  "type": "PROVIDER_JS"
+}

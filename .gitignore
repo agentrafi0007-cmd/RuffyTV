@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+bun.lockb
+
+# Build output
+dist/
+app.bundle.js
+
+# TV packages (build locally; never commit binaries)
+*.ipk
+*.wgt
+
+# Local config / secrets
+.env
+*.env
+nuvio.env.js
+local.properties
+local.example.properties
+AGENTS.md
+.roo
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.orig
+*.rej
+.DS_Store
+Thumbs.db
+
+# Caches and process files
+.cache/
+.pm2/
+logs/
+ecosystem.config.cjs
+
+# Test / debug scratch
+vega-dbg*.mjs
+sucrase-prot*
+/tmp/
+
+# Misc
+favicon.svg
+scripts/commit-build-poller.mjs

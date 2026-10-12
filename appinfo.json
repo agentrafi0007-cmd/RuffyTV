@@ -1,0 +1,29 @@
+{
+  "id": "com.ruffytv.webos",
+  "version": "1.2.3",
+  "vendor": "Ruffy",
+  "type": "web",
+  "main": "index.html",
+  "title": "RuffyTV",
+  "appDescription": "Your sources, one TV library.",
+  "keywords": ["streaming", "video", "media", "tv"],
+  "category": "entertainment",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "splashBackground": "splash.png",
+  "iconColor": "#0e0f12",
+  "handlesRelaunch": true,
+  "resolution": "1920x1080",
+  "transparent": false,
+  "services": ["com.ruffytv.webos.service"],
+  "requiredPermissions": ["internet", "media.operation", "media.query"],
+  "requiredACG": [
+    "application.launcher",
+    "application.query",
+    "arc.query",
+    "externalinput.query",
+    "profile.query",
+    "settings.query",
+    "systemconfig.query"
+  ]
+}
