@@ -22,6 +22,11 @@
 > RuffyTV rebrands the app, adds a provider runtime with a Vega/CloudStream-style extension system,
 > migrates storage to db8, and hardens the webOS service layer. See [CHANGELOG.md](./CHANGELOG.md).
 
+> **Disclaimer:** RuffyTV hosts no media and operates no streaming sources.
+> All providers are independent third-party code; the authors claim no ownership
+> of, or responsibility for, any provider or the content it references.
+> See [DISCLAIMER.md](./DISCLAIMER.md).
+
 ## Features
 
 - **Provider runtime** — JavaScript providers with a CloudStream-shaped contract
